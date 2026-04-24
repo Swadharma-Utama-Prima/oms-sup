@@ -1,7 +1,7 @@
 import { LoginForm } from "./login-form";
 
 export default function LoginPage() {
-  const appName = process.env.NEXT_PUBLIC_APP_NAME || "OMS Support";
+  const appName = process.env.NEXT_PUBLIC_APP_NAME || "OMS Dashboard";
 
   return (
     <div className="relative flex min-h-screen items-center justify-center overflow-hidden bg-[linear-gradient(125deg,#fdf2f8_0%,#eff6ff_45%,#ecfccb_100%)] p-6">
@@ -13,7 +13,7 @@ export default function LoginPage() {
           {appName}
         </p>
         <h1 className="mt-3 text-3xl font-black tracking-tight text-zinc-900">
-          Sign in
+          Masuk
         </h1>
         <p className="mt-2 text-sm leading-6 text-zinc-600">
           Use demo credentials from your environment variables.

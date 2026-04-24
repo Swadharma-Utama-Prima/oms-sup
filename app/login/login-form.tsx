@@ -40,7 +40,7 @@ export function LoginForm() {
   return (
     <form className="mt-8 space-y-5" onSubmit={handleSubmit}>
       <label className="block">
-        <span className="mb-2 block text-sm font-semibold text-zinc-700">Email</span>
+        <span className="mb-2 block text-sm font-semibold text-zinc-700">Email test</span>
         <input
           type="email"
           required
@@ -70,7 +70,7 @@ export function LoginForm() {
       <button
         type="submit"
         disabled={loading}
-        className="inline-flex h-12 w-full items-center justify-center rounded-xl bg-zinc-900 text-sm font-semibold text-white transition enabled:hover:-translate-y-0.5 enabled:hover:bg-zinc-700 disabled:cursor-not-allowed disabled:bg-zinc-500"
+        className="inline-flex h-12 w-full items-center justify-center rounded-xl bg-[#FF7A3D] text-sm font-semibold text-white transition enabled:hover:-translate-y-0.5 enabled:hover:bg-zinc-700 disabled:cursor-not-allowed disabled:bg-zinc-500"
       >
         {loading ? "Checking..." : "Sign in"}
       </button>
